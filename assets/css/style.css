@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+}
+#hint {
+	width: 400px;
+	height: auto;
+}
+#new {
+	background: #1E90FF;
+	color:white;
+	width: 200px;
+	height: 50px;
+	border-radius: 20px;
+}
+.jumbotron {
+	/*background-color: #F5FFFA;*/
+}
+
+.col-md-6 {
+	height: 300px;
+	width: 50%;
+	text-align: center;
+}
+#c1 {
+	background-color: yellow;
+	height: 300px;
+	width: 50%;
+	text-align: center;
+	z-index: 1;
+}
+#c2 {
+	background-color: green;
+	height: 300px;
+	width: 50%;
+	text-align: center;
+	z-index: 1;
+}
+#c3 {
+	background-color: blue;
+	height: 300px;
+	width: 50%;
+	text-align: center;
+	z-index: 1;
+}
+#c4 {
+	background-color: red;
+	height: 300px;
+	width: 50%;
+	text-align: center;
+	z-index: 1;
+}
+#box {
+	background-color: black;
+	width: 30%;
+	height: 200;
+	z-index: -2;
+	
+}
+
+.text-center {
+	font-size: 120px;
+	color: white;
+	background-color: black;
+}
+n

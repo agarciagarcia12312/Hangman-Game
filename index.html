@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Game using javascript</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script type="text/javascript" src="assets/javascript/game.js">
+		
+	</script>
+
+</head>
+<body>
+	<!-- <h1> Hangman the game: </h1>
+	<h2>use the hint and guess the word</h2> -->
+
+	<div class="container" id="initial_page">
+		<div id="box">
+			<h1 class="text-center"> Hangman</h1>
+			<h4> Pick your category</h4>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="c1" onclick="c1()">
+				<h1> Movies </h1>				
+			</div>
+			<div class="col-md-6" id="c2" onclick="c2()">
+				<h1> Tv Shows</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="c3" onclick="c3()">
+				<h1> c3 </h1>				
+			</div>
+			<div class="col-md-6" id="c4" onclick="c4()">
+				<h1> c4 </h1>
+			</div>
+		</div>
+		
+	</div>
+
+	<div id="game_page" style="display: none">
+		<div class="jumbotron">
+  			<h1>Lets play hangman!</h1>
+  			<p>click new game to begin</p>
+  			<p><a class="btn btn-primary btn-lg" id="new" onclick="newGame()" role="button">New Game</a></p>
+			
+			<p id="lives"></p>
+			
+		</div>
+
+		<h1 class="text-center" id="SecretWord">lets play hangman</h1>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-2">
+				<img src="assets/images/hint.jpg" id="hint">
+			</div>
+			
+		</div>	
+
+
+
+		
+
+		
+		
+	</div>
+
+
+</body>
+</html>
